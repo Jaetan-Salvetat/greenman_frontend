@@ -8,11 +8,22 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
       <!-- Axentix CSS minified version -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.css">
-      <!-- Axentix JS minified version -->
-      <script src="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.js"></script>
       <!-- Head of your page -->
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+      <!-- Axentix JS minified version -->
+      <script src="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/components/lightbox/lightbox.min.js"></script>
+
+      <style>
+          html, body, #app {
+              height: 100vh;
+          }
+          * {
+              padding: 0;
+              margin: 0;
+          }
+      </style>
   </head>
   <body>
     <noscript>
